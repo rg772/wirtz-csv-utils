@@ -15,6 +15,12 @@ To process the XLS file into separate CSV files for import
  php n  app:convert-to-worksheets ~/Downloads/2024\ Wirtz\ 1.xlsx
  ```
 
+## env needs
+```dotenv
+BASICLOOKUP_END_POINT={ your endpoint }
+BASICLOOKUPKEY={ your key }
+```
+
 ## Break down
 To explore, start with these following command files
 - ConvertToWorksheetsCommand.php, creates individual CSVs ready for import
