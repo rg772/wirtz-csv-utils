@@ -23,7 +23,7 @@ class ProcessExcelCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Breaks down an incoming excel file';
+    protected $description = 'Breaks down an incoming excel file showing First, Last, and potential NetID matches in the console.';
 
     /**
      * Execute the console command.
